@@ -1,0 +1,27 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "food delivery ap",
+  "author": "Frank Mwandi",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.1",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "graphql": "^15.1.0",
+    "graphql-tag": "^2.10.3",
+    "nuxt": "^2.0.0",
+    "nuxt-vuikit": "^1.1.0",
+    "uikit": "^3.5.3"
+  },
+  "devDependencies": {
+    "sass": "^1.26.8",
+    "sass-loader": "^8.0.2"
+  }
+}
